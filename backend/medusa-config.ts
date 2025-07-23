@@ -16,6 +16,10 @@ module.exports = defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     },
   },
+  plugins: [{
+    resolve: "@medusajs/loyalty-plugin",
+    options: {},
+  }],
   modules: {
     [COMPANY_MODULE]: {
       resolve: "./modules/company",
