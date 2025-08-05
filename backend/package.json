@@ -24,9 +24,10 @@
   "dependencies": {
     "@medusajs/admin-sdk": "2.8.4",
     "@medusajs/cli": "2.8.4",
+    "@medusajs/draft-order": "0.0.13",
     "@medusajs/framework": "2.8.4",
     "@medusajs/js-sdk": "2.8.4",
-    "@medusajs/loyalty-plugin": "0.0.7-preview.3",
+    "@medusajs/loyalty-plugin": "0.0.7-preview.4",
     "@medusajs/medusa": "2.8.4",
     "@medusajs/ui": "4.0.14",
     "@mikro-orm/core": "6.4.3",

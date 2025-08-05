@@ -2436,6 +2436,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@medusajs/draft-order@npm:0.0.13":
+  version: 0.0.13
+  resolution: "@medusajs/draft-order@npm:0.0.13"
+  dependencies:
+    "@ariakit/react": "npm:^0.4.15"
+    "@hookform/resolvers": "npm:3.4.2"
+    "@medusajs/js-sdk": "npm:2.8.8"
+    "@tanstack/react-query": "npm:5.64.2"
+    "@uiw/react-json-view": "npm:^2.0.0-alpha.17"
+    date-fns: "npm:^3.6.0"
+    match-sorter: "npm:^6.3.4"
+    radix-ui: "npm:1.1.2"
+    react-hook-form: "npm:7.49.1"
+  peerDependencies:
+    "@medusajs/admin-sdk": 2.8.8
+    "@medusajs/cli": 2.8.8
+    "@medusajs/framework": 2.8.8
+    "@medusajs/icons": 2.8.8
+    "@medusajs/medusa": 2.8.8
+    "@medusajs/test-utils": 2.8.8
+    "@medusajs/ui": 4.0.11
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+    lodash: ^4.17.21
+    pg: ^8.13.0
+    react-router-dom: 6.20.1
+  checksum: 10c0/ecf16908859e290da50400b2e8e99ef2571af3091784ec02570d3b9fae1ab233c742c85363109015fd26feec8c38821e47026976f5bb986f4c85a5611da09a92
+  languageName: node
+  linkType: hard
+
 "@medusajs/event-bus-local@npm:2.8.4":
   version: 2.8.4
   resolution: "@medusajs/event-bus-local@npm:2.8.4"
@@ -2619,6 +2653,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@medusajs/js-sdk@npm:2.8.8":
+  version: 2.8.8
+  resolution: "@medusajs/js-sdk@npm:2.8.8"
+  dependencies:
+    "@medusajs/types": "npm:2.8.8"
+    fetch-event-stream: "npm:^0.1.5"
+    qs: "npm:^6.12.1"
+  checksum: 10c0/1aa5893de1229f6f350add5c2e3289e598be30b8b4dd0040fbc0373c489bdd8cb322ac6365d4b5f82a2291ff6395759a68728a2fd6d14af2218c230ca44b10b0
+  languageName: node
+  linkType: hard
+
 "@medusajs/link-modules@npm:2.8.4":
   version: 2.8.4
   resolution: "@medusajs/link-modules@npm:2.8.4"
@@ -2665,9 +2710,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/loyalty-plugin@npm:0.0.7-preview.3":
-  version: 0.0.7-preview.3
-  resolution: "@medusajs/loyalty-plugin@npm:0.0.7-preview.3"
+"@medusajs/loyalty-plugin@npm:0.0.7-preview.4":
+  version: 0.0.7-preview.4
+  resolution: "@medusajs/loyalty-plugin@npm:0.0.7-preview.4"
   peerDependencies:
     "@medusajs/admin-sdk": "*"
     "@medusajs/cli": "*"
@@ -2687,7 +2732,7 @@ __metadata:
     lodash: ^4.17.21
     pg: ^8.13.0
     react-router-dom: 6.20.1
-  checksum: 10c0/0622316df99be433fa1254af283f1fb3de9369b81e8e54326bb103d67f09b8b5fd4a1ee36cd2c99b6629a6f399f61e1bb48fa548ac2a1bfc6f2531bd06e288c3
+  checksum: 10c0/2ccb1226a624b9b91c444ea0a6ce7287b722d6e2be745bca1d1df4f33802ce741f12b07024df0eacb83665d81a9b56b0f15701fc95d1f6106091f6469ec19244
   languageName: node
   linkType: hard
 
@@ -3062,6 +3107,24 @@ __metadata:
     vite:
       optional: true
   checksum: 10c0/22ac089868fd9a140d0bc86f058f4b4721561a72692af33bd3b7df1c754571a05bf4513975982030aeabaf035134a9366c25b4fc93c2dcd4759aff7ad50ce723
+  languageName: node
+  linkType: hard
+
+"@medusajs/types@npm:2.8.8":
+  version: 2.8.8
+  resolution: "@medusajs/types@npm:2.8.8"
+  dependencies:
+    bignumber.js: "npm:^9.1.2"
+  peerDependencies:
+    awilix: ^8.0.1
+    ioredis: ^5.4.1
+    vite: ^5 || ^6
+  peerDependenciesMeta:
+    ioredis:
+      optional: true
+    vite:
+      optional: true
+  checksum: 10c0/6b4da9d46d419c2cc6d7e1b1315cc61890c270ac6ee951fa7062ee8ea9b2caa1ea32a247623962bf4967fa06454af87dca9350aa7cf5eb234c4ac2c3f147ec0b
   languageName: node
   linkType: hard
 
@@ -12149,9 +12212,10 @@ __metadata:
   dependencies:
     "@medusajs/admin-sdk": "npm:2.8.4"
     "@medusajs/cli": "npm:2.8.4"
+    "@medusajs/draft-order": "npm:0.0.13"
     "@medusajs/framework": "npm:2.8.4"
     "@medusajs/js-sdk": "npm:2.8.4"
-    "@medusajs/loyalty-plugin": "npm:0.0.7-preview.3"
+    "@medusajs/loyalty-plugin": "npm:0.0.7-preview.4"
     "@medusajs/medusa": "npm:2.8.4"
     "@medusajs/test-utils": "npm:2.8.4"
     "@medusajs/ui": "npm:4.0.14"
